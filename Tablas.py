@@ -1,16 +1,15 @@
 for i in range(1,11):
     encabezado="Tabla del {}"
     print(encabezado.format(i))
-    #print sin argumentos es un salto de linea
+    #salto de linea (print())
     print()
     for j in range(1,11):
-        #Aqui i contiene el numero base de la tabla
-        #y j el elemento de la tabla
+        #i tiene la base de la tabla mientras j el elemento de esta misma
         salida="{} x {} = {}"
         print(salida.format(i,j,i*j))
     else:
-        #Al concluir con las iteraciones indicadas
-        #se ejecuta este codigo, que es un salto de linea
+        #Al acabar con cada iteracion de cada una de las tablas
+        #Se hace un salto de linea
         print()
 
 #Crear un programa que elabore las tablas de multiplicar del 1 al 10.
