@@ -1,14 +1,13 @@
-# Se declaran las variables de trabajo, con tipo explicito.
+# Declaramos variables con valor
 acumulado=int(0)
 numero=str("")
 
-#Al colocar True como condicion de while, se forma
-# un ciclo infinito que no se rompera hasta que de
-# forma explicita se utilice la instruccion break.
+#Con while, se forma un ciclo infinito que no se detendra hasta que se use
+#break.
 while True:
     numero=input("Dame un numero entero: ")
     if numero=="":
-        #Si el numero es vacio, reporta la situacion y sale.
+        #Si no hay valor se sale.
         print("Vacio. Salida del programa.")
         break
     else:
@@ -18,7 +17,7 @@ while True:
         salida="Monto acumulado: {}"
         print(salida.format(acumulado))
 
-#Elaboramos un programa que pregunye numero enteros indefinidamente
+#Elaboramos un programa que pregunte numero enteros indefinidamente
 #Cada numero que pregunte, debera acumularlo, mostrando "Acumulado
 # hasta el momento: x". El programa no deja de preguntar numeros y
 # acumularlos, hasta que se deje vacia la entrada.
