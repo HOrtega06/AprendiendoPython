@@ -1,11 +1,8 @@
-#Se declaran dos variables con input para ingresar la informacion
-#necesaria en este caso nombre y apellido
 nombre=input("Nombre:")
 apellidos=input("Apellidos:")
-#Se concatenan los valores str, junto con la literal " " (para tomar un espacio)
+#Se concatenan los valores, (" " es usado como espacio al momento de imprimir el resultado)
 NombreCompleto=nombre+" "+apellidos
-#Se asigna a la variable la representacion en mayusculas
-#de lo que contenia (Nombre/Apellidos)
+#La funcion upper usada para dar formato de mayusculas a type str
 NombreCompleto=NombreCompleto.upper()
 print(NombreCompleto)
 
