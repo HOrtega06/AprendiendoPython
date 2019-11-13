@@ -6,7 +6,7 @@ class Bicicletas():
        self.Llantas=2
        self.Color=Color
        self.Avanza=False
-#Comportamientos
+
     def Avanzar(self):
         self.Avanza=True
 
