@@ -10,8 +10,9 @@ class Bicicletas():
     def Avanzar(self):
         self.Avanza=True
 
-    def Informe(self):
-        print("La bicicleta tiene",self.Altura,"En centrimentros")
+     def Informe(self):
+         print("La bicicleta tiene ",self.Altura,"cm de altura y",self.Largo,",cm de largo,","y tiene", 
+             self.Llantas, "llantas.")
 
 bicicleta1=Bicicletas("Negro")
 bicicleta2=Bicicletas("Amarillo")
